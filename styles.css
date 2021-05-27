@@ -1,0 +1,185 @@
+body {
+  background-color: orange;
+  font-family: 'Roboto';
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+h1 {
+  text-decoration: underline;
+  font-weight: bold;
+  padding-bottom: 6px;
+  text-shadow: 3px 2px white;
+  text-align: center;
+}
+
+
+h2 {
+  padding-bottom: 4px;
+}
+
+
+h3 {
+  padding-bottom: 4px;
+}
+
+nav, footer{
+  height: 60px;
+  background-color: #2A9D8F;
+  width: 100%;
+  margin: 0;
+  line-height: 60px;
+}
+
+.nav-bar{
+  margin: 0;
+  padding: 0;
+}
+
+nav ul{
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+nav ul li{
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  display: block;
+}
+
+nav a:hover{
+  background-color: #E9C46A;
+}
+
+header h2 {
+  text-align: center;
+}
+
+header p {
+  text-align: justify;
+  padding: 10px 20px;
+  margin: 0 20px;
+}
+
+p {
+  font-size: 16px;
+  text-align: justify;
+}
+
+p span{
+  font-style: italic;
+}
+
+
+p span:last-child{
+  text-decoration: underline;
+}
+
+p span:first-child{
+  font-style: unset;
+  color:red;
+}
+
+
+main ul {
+  font-size: 16px;
+}
+
+
+main ol {
+  font-size: 16px;
+  list-style-type: upper-roman;
+}
+
+main li {
+  text-align: justify;
+}
+
+main ul li:before {
+  content: '\1F373'; margin-left: -20px; margin-right: 10px;
+}
+
+.other-recipes li:before{
+  content: '\1F517'; margin-left: -20px; margin-right: 10px;
+}
+
+#sample-pics{
+  justify-content: center;
+}
+
+#sample-pics img {
+  max-width: 100%;
+  display: inline-block;
+}
+
+@media (min-width: 420px) {
+  #sample-pics img {
+    max-width: 48%;
+  }
+}
+
+@media (min-width: 760px) {
+  #sample-pics img {
+    max-width: 24%;
+  }
+}
+
+.lightbluebg {
+  background-color: lightblue;
+}
+
+
+main article{
+  display: flex;
+  flex-wrap: row wrap;
+  margin: 20px 20px 0 20px;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.recipe-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 0 10px 0px 1px;
+}
+
+#ingredients-sec {
+  margin-right: 15px;
+}
+
+footer {
+  padding-left: 10px;
+  color: white;
+}
+
+.other-recipes{
+  width: 90%;
+  margin-left: 20px;
+}
+
+.other-recipes h3 {
+  text-align: left;
+}
+
+.other-recipes a{
+  text-decoration: none;
+  color: black;
+}
+
+.other-recipes a:hover{
+  color: white;
+}
+
+/* REFERENCE URLs:
+https://www.w3schools.com/cssref/default.asp
+*/
